@@ -34,7 +34,6 @@
          {recbuf,       <%= @tcp_recbuf %>},
          <%- end -%>
          {nodelay,       true},
-         {linger,        {true, 0}},
          {exit_on_close, false}]
     },
 <%- if @collect_statistics_interval -%>
